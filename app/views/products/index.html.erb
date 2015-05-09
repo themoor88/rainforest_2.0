@@ -1,2 +1,4 @@
-<h1>Products#index</h1>
-<p>Find me in app/views/products/index.html.erb</p>
+<h1>All of the Products</h1>
+<% @products. each do |product|%>
+  <a href = "<%= product_path(product) %>"<p><%= product.name %>, <%= product.description %></p></a>
+<% end %>
