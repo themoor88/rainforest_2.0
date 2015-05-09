@@ -1,6 +1,6 @@
 <%= form_for(@product) do |f| %>
 
-<!-- Display all the errors in a list if there are any errors. Errors are part of Rails magic. -->
+<!-- Display all the validation errors in a list if there are any errors. Errors are part of Rails magic. -->
   <%if @products.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@product.errors.count, "error") %> prohibited this product from being saved:</h2>

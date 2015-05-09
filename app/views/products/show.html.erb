@@ -1,5 +1,6 @@
 <h1><%= @product.name %></h1>
 <p><%= @product.description %></p>
+<p><%= @product.formatted_price %></p>
 <%= link_to 'All Products', products_path %><br/>
 <%= link_to 'Edit Product', edit_product_path %><br/>
 <%= link_to "Delete", @picture, method: :delete, data: {confirm: "Are you sure you want tot delete this picture?"} %>
