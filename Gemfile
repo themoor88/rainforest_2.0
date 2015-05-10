@@ -30,6 +30,8 @@ gem 'better_errors'
 
 gem 'quiet_assets'
 
+gem 'kaminari'
+
 gem 'pry-rails'
 # Use Unicorn as the app server
 # gem 'unicorn'
