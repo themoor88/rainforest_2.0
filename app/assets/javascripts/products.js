@@ -28,6 +28,7 @@ $(document).on('ready page:load', function() {
       dataType: 'script'
     }).done(function(data) {
       $('#products').html(data);
+      console.log("Hello");
     });
 
   });
